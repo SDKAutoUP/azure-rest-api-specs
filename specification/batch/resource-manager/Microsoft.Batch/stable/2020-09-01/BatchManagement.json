@@ -170,7 +170,7 @@
         "tags": [
           "BatchAccount"
         ],
-        "operationId": "BatchAccount_Delete",
+        "operationId": "BatchAccount_DeleteABC",
         "x-ms-examples": {
           "BatchAccountDelete": {
             "$ref": "./examples/BatchAccountDelete.json"
