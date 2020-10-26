@@ -27,12 +27,12 @@
     }
   },
   "paths": {
-    "/providers/Microsoft.Attestation/operations": {
+    "/providers/Microsoft.Attestation/": {
       "get": {
         "tags": [
           "Operations"
         ],
-        "operationId": "Operations_List",
+        "operationId": "Operations_ListXX",
         "description": "Lists all of the available Azure attestation operations.",
         "x-ms-examples": {
           "Operations_List": {
@@ -65,7 +65,7 @@
         "tags": [
           "AttestationProviders"
         ],
-        "operationId": "AttestationProviders_Get",
+        "operationId": "AttestationProviders_GetXX",
         "description": "Get the status of Attestation Provider.",
         "x-ms-examples": {
           "AttestationProviders_Get": {
