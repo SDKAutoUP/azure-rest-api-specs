@@ -13,13 +13,6 @@
         "azure-sdk-for-go": {
           "mainBranch": "sdk-automation",
           "mainRepository": "SDKAutoUP/azure-sdk-for-go"
-        },
-        "azure-sdk-for-java": {
-          "mainRepository": "SDKAutoUP/azure-sdk-for-java"
-        }
-        "azure-sdk-for-java-track2": {
-          "mainRepository": "SDKAutoUP/azure-sdk-for-java",
-          "mainBranch": "v2"
         }
       }
     }
