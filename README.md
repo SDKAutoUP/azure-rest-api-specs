@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository is the canonical source for REST API specifications for Microsoft Azure.
+This repository is the canonical source for REST API specifications for Microsoft Azure.x
 
 ## Basics
 If you're a spec author looking for information about all of of the repositories and steps in the pipeline, go to the [adx-documentation-pr](https://github.com/Azure/adx-documentation-pr) repository. Make sure to [join the Github Azure organization](http://aka.ms/azuregithub) to get access to that repo.
