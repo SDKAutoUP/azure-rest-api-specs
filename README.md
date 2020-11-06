@@ -21,7 +21,7 @@ The structure of the directory should strictly follow these rules:
 
 1. **Specification**: This folder is the root folder for all Specs (Management and Dataplane) related docs.
 
-1. **{RP-Name} Folders** - each RP will have a separate folder
+1. **{RP-Name} Folders** - each RP will have a separate folderx
 
 1. **'resource-manager' and 'data-plane' Folders**: the RPs can put specs in one of two categories: `resource-manager` (for ARM resources) and `data-plane` (for everything else) . The autorest configuration file (`readme.md`) for the RP should be inside this folder
 
