@@ -2,36 +2,8 @@
   "$schema": "https://openapistorageprod.blob.core.windows.net/sdkautomation/prod/schemas/specificationRepositoryConfiguration.schema.json",
   "pipelineName": "test-repo-billy.azure-rest-api-specs-pipeline-dev",
   "sdkRepositoryMappings": {
-    "azure-sdk-for-go": {
-      "mainRepository": "SDKAutoUP/azure-sdk-for-go"
-    },
-    "azure-sdk-for-java": {
-      "mainRepository": "SDKAutoUP/azure-sdk-for-java"
-    },
     "azure-sdk-for-js": {
       "mainRepository": "SDKAutoUP/azure-sdk-for-js"
-    },
-    "azure-sdk-for-net": {
-      "mainRepository": "SDKAutoUP/azure-sdk-for-net"
-    },
-    "azure-sdk-for-python": {
-      "mainRepository": "SDKAutoUP/azure-sdk-for-python",
-      "mainBranch": "release/v3"
-    },
-    "azure-sdk-for-python-track2": {
-      "mainRepository": "SDKAutoUP/azure-sdk-for-python"
-    },
-    "azure-cli-extensions": {
-      "mainRepository": "SDKAutoUP/azure-cli-extensions"
-    },
-    "azure-sdk-for-ruby": {
-      "mainBranch": "latest",
-      "mainRepository": "SDKAutoUP/azure-sdk-for-ruby"
-    },
-    "azure-sdk-for-trenton": {
-      "mainRepository": "SDKAutoUP/azure-sdk-for-trenton",
-      "secondaryRepository": "SDKAutoUP/azure-sdk-for-trenton",
-      "secondaryBranch": "secondary"
     },
     "azure-resource-manager-schemas": {
       "mainRepository": "SDKAutoUP/azure-resource-manager-schemas"
@@ -40,9 +12,11 @@
   "overrides": {
     "SDKAutoUP/azure-rest-api-specs": {
       "sdkRepositoryMappings": {
-        "azure-sdk-for-go": {
-          "mainBranch": "sdk-automation",
-          "mainRepository": "SDKAutoUP/azure-sdk-for-go"
+         "azure-resource-manager-schemas": {
+          "mainRepository": "SDKAutoUP/azure-resource-manager-schemas"
+        },
+        "azure-sdk-for-js": {
+          "mainRepository": "SDKAutoUP/azure-sdk-for-js"
         }
       }
     }
