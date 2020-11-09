@@ -35,6 +35,7 @@
     },
     "azure-resource-manager-schemas": {
       "mainRepository": "SDKAutoUP/azure-resource-manager-schemas"
+    }
   },
   "overrides": {
     "SDKAutoUP/azure-rest-api-specs": {
