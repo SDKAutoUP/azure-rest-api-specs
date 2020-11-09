@@ -35,6 +35,15 @@
     },
     "azure-resource-manager-schemas": {
       "mainRepository": "SDKAutoUP/azure-resource-manager-schemas"
+  },
+  "overrides": {
+    "SDKAutoUP/azure-rest-api-specs": {
+      "sdkRepositoryMappings": {
+        "azure-sdk-for-go": {
+          "mainBranch": "sdk-automation",
+          "mainRepository": "SDKAutoUP/azure-sdk-for-go"
+        }
+      }
     }
   }
 }

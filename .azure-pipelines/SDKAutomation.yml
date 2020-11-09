@@ -8,8 +8,8 @@ pr:
   autoCancel: false
 
 variables:
-  IMAGE: azopenapi.azurecr.io/openapi/sdk-automation:prod
-  REGISTRY_ENDPOINT: azopenapi-registry
+  IMAGE: azopenapitest.azurecr.io/openapi/sdk-automation:test
+  REGISTRY_ENDPOINT: openapi platform test acr registry
 
 jobs:
 - job: "SDKAutomation"
@@ -41,7 +41,6 @@ jobs:
         SDK_REPO_NAME: azure-sdk-for-go
       Trenton:
         SDK_REPO_NAME: azure-sdk-for-trenton
-      ${{ if eq(variables['ENABLE_RESOURCE_MANAGER_SCHEMAS'], 'true') }}:
       Schema:
         SDK_REPO_NAME: azure-resource-manager-schemas
   steps:
@@ -63,6 +62,7 @@ jobs:
       docker tag $IMAGE sdk-automation:latest
     displayName: Pull SDK Automation Image
   - script: |
+      printenv
       docker run \
         -e BLOB_PROXY_PREFIX \
         -e BLOB_STORAGE_PREFIX \
@@ -80,6 +80,7 @@ jobs:
         -e AZURE_DEVOPS_EXT_PAT \
         -e BUILD_ID \
         sdk-automation:latest npm start
+    condition: or(ne(variables['SDK_REPO_NAME'], 'azure-resource-manager-schemas'), endsWith(variables['SPEC_REPO'], '/azure-rest-api-specs'))
     env:
       BLOB_STORAGE_NAME: $(blob-storage-name)
       BLOB_STORAGE_KEY: $(blob-storage-key)
