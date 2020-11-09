@@ -38,7 +38,7 @@ The structure of the directory should strictly follow these rules:x
     - files are whatever case you think is good for your soul.
 
 
-The structure should appear like so:
+The structure should appear likex so:
 ```bash
 .
 \---specification
