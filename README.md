@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository is the canonical source for REST API specifications for Microsoft Azure. xs
+This repository is the canonical source for REST API specifications for Microsoft Azure.x
 
 ## Basics
 If you're a spec author looking for information about all of of the repositories and steps in the pipeline, go to the [adx-documentation-pr](https://github.com/Azure/adx-documentation-pr) repository. Make sure to [join the Github Azure organization](http://aka.ms/azuregithub) to get access to that repo.
@@ -15,7 +15,7 @@ If you're a spec author looking for information about all of of the repositories
 
 ## Directory Structure
 
-The structure of the directory should strictly follow these rules:
+The structure of the directory should strictly follow these rules:x
 
 1. **Profile**: The profile holder contains the profiles' definition MD files. these files will contain information and references to the snapshots of the RPs' Resource types or Dataplane API versions that represent a specific profile.
 
