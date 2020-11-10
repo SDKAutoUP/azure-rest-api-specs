@@ -15,7 +15,7 @@ If you're a spec author looking for information about all of of the repositories
 
 ## Directory Structure
 
-The structure of the directory should strictly follow these rules:x
+The structure of the directory should strictly follow these rules:xx
 
 1. **Profile**: The profile holder contains the profiles' definition MD files. these files will contain information and references to the snapshots of the RPs' Resource types or Dataplane API versions that represent a specific profile.
 
