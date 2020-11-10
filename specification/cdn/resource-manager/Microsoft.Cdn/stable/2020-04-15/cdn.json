@@ -79,7 +79,7 @@
           "Profiles"
         ],
         "description": "Lists all of the CDN profiles within a resource group. xx",
-        "operationId": "Profiles_ListByResourceGroup",
+        "operationId": "Profiles_ListByResourceGroupX",
         "x-ms-examples": {
           "Profiles_ListByResourceGroup": {
             "$ref": "./examples/Profiles_ListByResourceGroup.json"
