@@ -270,7 +270,7 @@
         "tags": [
           "BatchAccount"
         ],
-        "operationId": "BatchAccount_List",
+        "operationId": "BatchAccount_",
         "x-ms-examples": {
           "BatchAccountList": {
             "$ref": "./examples/BatchAccountList.json"
