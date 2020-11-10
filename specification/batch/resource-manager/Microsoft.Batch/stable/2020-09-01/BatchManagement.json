@@ -41,7 +41,7 @@
         "tags": [
           "BatchAccount"
         ],
-        "operationId": "BatchAccount_Create",
+        "operationId": "BatchAccount_CreateX",
         "x-ms-examples": {
           "BatchAccountCreate_Default": {
             "$ref": "./examples/BatchAccountCreate_Default.json"
@@ -176,7 +176,7 @@
             "$ref": "./examples/BatchAccountDelete.json"
           }
         },
-        "description": "Deletes the specified Batch account.",
+        "description": "Deletes the specified Batch account no error now.",
         "parameters": [
           {
             "$ref": "#/parameters/ResourceGroupNameParameter"
