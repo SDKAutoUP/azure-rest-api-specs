@@ -79,7 +79,7 @@
           "GET"
         ],
         "summary": "Get the non-security related metadata of an IoT hub",
-        "description": "Get the non-security related metadata of an IoT hub.",
+        "description": "Get the non-security related metadata of an IoT hub.x",
         "operationId": "IotHubResource_Get",
         "x-ms-examples": {
           "IotHubResource_Get": {
