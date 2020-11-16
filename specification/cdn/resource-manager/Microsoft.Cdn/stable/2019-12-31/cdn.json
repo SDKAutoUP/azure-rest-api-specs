@@ -231,7 +231,7 @@
           "Profiles"
         ],
         "description": "Updates an existing CDN profile with the specified profile name under the specified subscription and resource group.",
-        "operationId": "Profiles_Update",
+        "operationId": "Profiles_UpdateXXX",
         "x-ms-examples": {
           "Profiles_Update": {
             "$ref": "./examples/Profiles_Update.json"
