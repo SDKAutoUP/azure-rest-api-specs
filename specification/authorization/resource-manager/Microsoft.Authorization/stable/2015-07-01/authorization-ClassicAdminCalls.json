@@ -39,7 +39,7 @@
         "tags": [
           "ClassicAdministrators"
         ],
-        "operationId": "ClassicAdministrators_List",
+        "operationId": "ClassicAdministrators_ListABCD",
         "description": "Gets service administrator, account administrator, and co-administrators for the subscription.",
         "parameters": [
           {
