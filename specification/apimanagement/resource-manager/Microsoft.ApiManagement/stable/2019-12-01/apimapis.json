@@ -92,7 +92,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Paged Result response of Apis.",
+            "description": "Paged Result response of Apis. xx",
             "schema": {
               "$ref": "./definitions.json#/definitions/ApiCollection"
             }
